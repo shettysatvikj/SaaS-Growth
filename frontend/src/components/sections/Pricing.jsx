@@ -4,47 +4,47 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const tiers = [
-  {
-    name: "Launch",
-    price: "$1,500",
-    cadence: "one-time",
-    desc: "Perfect for seed-stage and early revenue SaaS.",
-    popular: false,
-    features: [
-      "Landing page + lead capture + thank you page",
-      "Copy framework & wireframes",
-      "Basic analytics setup",
-      "2 rounds of revisions",
-    ],
-  },
-  {
-    name: "Scale",
-    price: "$3,500",
-    cadence: "one-time",
-    desc: "Designed for growth-stage teams with ad budget.",
-    popular: true,
-    features: [
-      "Everything in Launch",
-      "Advanced qualification logic",
-      "A/B test-ready structure",
-      "CRM integration support",
-      "Conversion tracking & dashboard",
-    ],
-  },
-  {
-    name: "Enterprise",
-    price: "Custom",
-    cadence: "per engagement",
-    desc: "For multi-product or multi-segment SaaS orgs.",
-    popular: false,
-    features: [
-      "Everything in Scale",
-      "Custom flows per segment",
-      "Stakeholder workshop",
-      "Dedicated technical lead",
-      "Ongoing optimization support",
-    ],
-  },
+ {
+  name: "Launch",
+  price: "₹1.25L",
+  cadence: "one-time",
+  desc: "Perfect for seed-stage and early revenue SaaS.",
+  popular: false,
+  features: [
+    "Landing page + lead capture + thank you page",
+    "Copy framework & wireframes",
+    "Basic analytics setup",
+    "2 rounds of revisions",
+  ],
+},
+{
+  name: "Scale",
+  price: "₹2.9L",
+  cadence: "one-time",
+  desc: "Designed for growth-stage teams with ad budget.",
+  popular: true,
+  features: [
+    "Everything in Launch",
+    "Advanced qualification logic",
+    "A/B test-ready structure",
+    "CRM integration support",
+    "Conversion tracking & dashboard",
+  ],
+},
+{
+  name: "Enterprise",
+  price: "Custom",
+  cadence: "per engagement",
+  desc: "For multi-product or multi-segment SaaS orgs.",
+  popular: false,
+  features: [
+    "Everything in Scale",
+    "Custom flows per segment",
+    "Stakeholder workshop",
+    "Dedicated technical lead",
+    "Ongoing optimization support",
+  ],
+},
 ];
 
 const Pricing = () => {
