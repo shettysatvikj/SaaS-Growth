@@ -19,7 +19,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://saa-s-growth-9sr8.vercel.app",
+    origin: [
+      "https://saa-s-growth-9sr8.vercel.app",
+      "http://localhost:5173"
+    ],
     credentials: true
   })
 );
