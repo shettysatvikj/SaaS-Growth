@@ -18,17 +18,17 @@ const businessTypes = [
 
 const revenueRanges = [
   "Pre-revenue",
-  "$1k–$10k MRR",
-  "$10k–$50k MRR",
-  "$50k–$200k MRR",
-  "$200k+ MRR",
+  "₹80k–₹8L MRR",
+  "₹8L–₹40L MRR",
+  "₹40L–₹1.6Cr MRR",
+  "₹1.6Cr+ MRR",
 ];
 
 const adBudgets = [
-  "Less than $5k / month",
-  "$5k–$20k / month",
-  "$20k–$50k / month",
-  "$50k+ / month",
+  "Less than ₹4L / month",
+  "₹4L–₹16L / month",
+  "₹16L–₹40L / month",
+  "₹40L+ / month",
 ];
 
 const LeadCapturePage = () => {
