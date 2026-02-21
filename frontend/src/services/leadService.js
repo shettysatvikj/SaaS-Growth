@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://saas-growth.onrender.com";
 
 export const createLead = async (payload) => {
   const res = await axios.post(`${API_BASE_URL}/api/leads`, payload, {
